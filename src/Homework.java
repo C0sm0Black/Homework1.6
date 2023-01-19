@@ -7,6 +7,18 @@ public class Homework {
         task3();
         task4();
         task5();
+        task6();
+
+
+    }
+
+    private static void task6() {
+
+        System.out.println("Задача 6");
+
+        for (int i = 7; i <= 98; i = i + 7){
+            System.out.println(i);
+        }
 
     }
 
