@@ -11,7 +11,17 @@ public class Homework {
         task7();
         task8();
         task9();
+        task10();
 
+    }
+
+    private static void task10() {
+
+        System.out.println("Задача 10 ");
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.println("2 * " + i + " = " + (2 * i));
+        }
     }
 
     private static void task9() {
