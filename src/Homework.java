@@ -9,7 +9,24 @@ public class Homework {
         task5();
         task6();
         task7();
+        task8();
 
+    }
+
+    private static void task8() {
+
+        System.out.println("Задача 8");
+
+        int salary = 29_000;
+        int total = 0;
+
+        for (int i = 1; i <= 12; i++) {
+
+            total = total + salary;
+
+            System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей");
+
+        }
     }
 
     private static void task7() {
