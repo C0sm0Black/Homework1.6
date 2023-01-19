@@ -6,6 +6,21 @@ public class Homework {
         task2();
         task3();
         task4();
+        task5();
+
+    }
+
+    private static void task5() {
+
+        System.out.println("Задача 5");
+
+        for (int i = 1904; i <= 2096; i = i + 4) {
+
+            if ((i % 4 == 0) || ((i % 100 != 0) && (i % 400 == 0))) {
+                System.out.println(i + "  год является високосным");
+            }
+
+        }
 
     }
 
