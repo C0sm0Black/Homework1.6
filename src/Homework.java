@@ -8,7 +8,17 @@ public class Homework {
         task4();
         task5();
         task6();
+        task7();
 
+    }
+
+    private static void task7() {
+
+        System.out.println("Задача 7");
+
+        for (int i = 1; i <= 512; i = i * 2) {
+            System.out.println(i);
+        }
 
     }
 
@@ -16,7 +26,7 @@ public class Homework {
 
         System.out.println("Задача 6");
 
-        for (int i = 7; i <= 98; i = i + 7){
+        for (int i = 7; i <= 98; i = i + 7) {
             System.out.println(i);
         }
 
